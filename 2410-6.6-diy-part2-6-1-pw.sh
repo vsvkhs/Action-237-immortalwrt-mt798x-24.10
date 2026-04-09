@@ -24,4 +24,3 @@ sed -i 's|IMG_PREFIX:=|IMG_PREFIX:=$(shell TZ="Asia/Shanghai" date +"%Y%m%d")-PW
 
 # Modify ppp-down, add sleep 3. 2025-6-13 source code is update, no need this
 #sed -i '$a\\sleep 3' package/network/services/ppp/files/lib/netifd/ppp-down
-3
